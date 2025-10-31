@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    margin: 20px;
+    
+}
+.head{
+    background-color: rgba(81, 253, 66, 0.911);
+    text-align: center;
+    color: antiquewhite;
+    padding: 60px;
+}
+.nave{
+    display: flex;
+    background-color: rgb(34, 31, 31);
+}
+.nave a{
+    text-decoration: none;
+
+    padding: 14px 20px;
+}
+.nave a:hover{
+    background-color: rgb(161, 158, 158);
+    color: aquamarine;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.side{
+    flex: 30%;
+    background-color:#f1f1f1 ;
+    padding: 20px;
+}
+.mane{
+    background-color: white;
+    flex: 70%;
+    padding: 20px;
+
+}
+.fakeimg{
+    background-color: #aaa ;
+    padding: 20px;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(218, 211, 211);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
